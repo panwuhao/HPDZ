@@ -1,0 +1,139 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript" src="~/js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript">
+        var currentShowskill = 0;
+        $(document).ready(function () {
+            $("#engineer").change(function () {
+                $("#engineer option").each(function (i, o) {
+                    if ($(this).attr("selected")) {
+                        $(".skill").hide();
+                        $(".skill").eq(i).show();
+                        currentShowskill = i;
+                    }
+                });
+            });
+            $("#engineer").change();
+
+            //option值
+            var sum = 0;
+            $(".connect").change(function () {
+                var num1 = parseInt($(this).find("option:selected").val());
+                sum += num1;
+            })
+            $("#Button1").click(function () {
+                alert(sum);
+            })
+        });
+    </script>
+    <style type="text/css">
+        div {
+            float: left;
+        }
+
+        select, #Button1 {
+            height: 25px;
+            border-radius: 5px;
+        }
+
+        #Button1 {
+            margin-top: 150%;
+            margin-left: -200%;
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            HEIGHT: 40PX;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 21px;
+        }
+
+        .connect {
+            margin-left: 20px;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="selectall">
+            软件工程师：
+            <select id="engineer">
+                <option>JAVA工程师</option>
+                <option>.NET工程师</option>
+                <option>web前端工程师</option>
+            </select>
+        </div>
+        <div class="content">
+            <div class="java skill">
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    沟通能力
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    ibatis
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    struts
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    java
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    linux
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    spring
+                </div>
+            </div>
+            <div class="net skill">
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    WebForm
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    HTTP
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    MVC
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    WCF
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    SQL
+                </div>
+                <div class="connect">
+                    <script src="~/js/select.js"></script>
+                    JQuery
+                </div>
+            </div>
+            <div class="web skill">
+                暂无数据
+            </div>
+        </div>
+        <div class="button">
+            <input id="Button1" type="button" value="查看分数" />
+        </div>
+    </div>
+</body>
+</html>

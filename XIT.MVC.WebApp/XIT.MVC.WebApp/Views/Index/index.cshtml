@@ -1,0 +1,227 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="~/css/base.css" rel="stylesheet" />
+    <link href="~/css/layout.css" rel="stylesheet" />
+    <script src="~/js/jquery.min.js"></script>
+    <style>
+        .frm_label1 {
+            padding:30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container w960 mt20">
+            <div id="processor">
+                <h1 style="font-size:28px;margin-bottom:15px">就业学生信息调查</h1>
+                <ol class="processorBox oh">
+                    <li class="current">
+                        <div class="step_inner fl">
+                            <span class="icon_step">1</span>
+                            <h4>填写企业信息</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step_inner">
+                            <span class="icon_step">2</span>
+                            <h4>岗位招聘信息</h4>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="step_inner fr">
+                            <span class="icon_step">3</span>
+                            <h4>目前招聘岗位</h4>
+                        </div>
+                    </li>
+                </ol>
+                <div class="step_line"></div>
+            </div>
+            <div class="content">
+                <div id="step1" class="step hide">
+                    <form action="" method="post" id="step1_frm">
+                        <div class="frm_control_group">
+                            <label class="frm_label">城市</label>
+                            <div class="frm_controls">
+                                <select id="Select1" class="frm_input email" maxlength="32">
+                                    <option>北京</option>
+                                    <option>上海</option>
+                                    <option>广东</option>
+                                    <option>郑州</option>
+                                    <option>成都</option>
+                                </select>
+                                <label class="frm_label1">企业名称</label>
+                                <input type="text" name="" class="frm_input passwd" />
+
+                            </div>
+                        </div>
+                        <div class="frm_control_group">
+                            <label class="frm_label">企业编号</label>
+                            <div class="frm_controls">
+                                <input type="text" name="" class="frm_input passwd2" />
+                                <label class="frm_label1">所属行业</label>
+                                <input type="text" name="" class="frm_input passwd2" />
+                            </div>
+
+                        </div>
+
+                        <div class="frm_control_group">
+                            <label class="frm_label">公司介绍</label>
+                            <div class="frm_controls">
+                                <textarea name="" class="frm_input passwd2" style="width:728px;height:202px"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                <hr />
+                    <div class="toolBar">
+                        <a id="nextBtn1" class="btn btn_primary" style="margin-left:700px" href="javascript:;">下一步</a>
+                    </div>
+                </div><!-- // step1 end -->
+                <div id="step2" class="step hide">
+                    <form action="" method="post" id="step1_frm">
+                        <div class="frm_control_group">
+                            <label class="frm_label">岗位名称</label>
+                            <div class="frm_controls">
+                                <input type="text" name="" class="frm_input passwd" />
+
+                                <label class="frm_label1">方向</label>
+
+                                <select id="Select1" class="frm_input email" maxlength="32">
+                                    <option>.Net</option>
+                                    <option>Web前端</option>
+                                    <option>Java工程师</option>
+                                    <option>移动应用开发</option>
+                                    <option>电子商务</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="frm_control_group">
+                            <label class="frm_label">工作年限</label>
+                            <div class="frm_controls">
+                                <input type="text" name="" class="frm_input passwd2" />
+                                <label class="frm_label1">来源</label>
+                                <select id="Select1" class="frm_input email" maxlength="32">
+                                    <option>北京</option>
+                                    <option>上海</option>
+                                    <option>广东</option>
+                                    <option>郑州</option>
+                                    <option>成都</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="frm_control_group">
+                            <label class="frm_label">岗位描述</label>
+                            <div class="frm_controls">
+                                <textarea name="" class="frm_input passwd2" style="width:728px;height:202px"></textarea>
+                            </div>
+                        </div>
+                        <a id="nextBtn2" class="btn btn_primary" style="margin-left:45%" href="">提交</a>
+
+                    </form>
+                    <br />
+                    <hr />
+                    <div class="toolBar">
+                        <a id="nextBtn33" class="btn btn_primary" style="margin-left:700px" href="javascript:;">下一步</a>
+                    </div>
+                </div><!-- // step2 end -->
+                <div id="step3" class="step hide">
+
+                    <form action="" method="post" id="step3_frm">
+                        <div class="frm_control_group">
+                            <label class="frm_label">岗位名称</label>
+                            <div class="frm_controls">
+                                <select id="Select1" class="frm_input name" maxlength="32">
+                                    <option>北京</option>
+                                    <option>上海</option>
+                                    <option>广东</option>
+                                    <option>郑州</option>
+                                    <option>成都</option>
+                                </select>
+                                <label class="frm_label1">招聘人数</label>
+                                <select id="Select1" class="frm_input phone" maxlength="32">
+                                    <option>北京</option>
+                                    <option>上海</option>
+                                    <option>广东</option>
+                                    <option>郑州</option>
+                                    <option>成都</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="frm_control_group">
+                            <label class="frm_label">开始时间</label>
+                            <div class="frm_controls">
+                                <input type="text" name="" class="frm_input phone" />
+                                <label class="frm_label1">结束时间</label>
+                                <input type="text" name="" class="frm_input phone" />
+                            </div>
+                        </div>
+                        <div class="frm_control_group">
+                            <label class="frm_label">平均薪资</label>
+                            <div class="frm_controls">
+                                <input type="text" name="" class="frm_input phone" />
+                                <a id="addInfo" class="btn btn_primary" href="">添加</a>
+                            </div>
+                        </div>
+                        <div class="toolBar">
+
+                        </div>
+                        <div class="toolBar">
+                            <a id="submit" class="btn btn_primary" style="margin-left:45%" href="">提交</a>
+                        </div>
+                        <br />
+                    </form>
+                    <hr />
+                    <div class="toolBar">
+                        <a id="nextBtn5" class="btn btn_primary" style="margin-left:700px" href="">下一步</a>
+                    </div>
+                </div><!-- // step3 end -->
+        </div>
+    </div>
+        
+    <script>
+
+		$(function(){
+
+			//切换步骤（目前只用来演示）
+			$('.processorBox li').click(function(){
+				var i = $(this).index();
+				$('.processorBox li').removeClass('current').eq(i).addClass('current');
+				$('.step').fadeOut(0).eq(i).fadeIn(0);
+			});
+        });
+
+        $(function () {
+
+            //切换步骤（目前只用来演示）
+            $('#nextBtn1').click(function () {
+                //$(".content frm_control_group").eq(1).css("display", "block").siblings().css("display", "none");
+                $('#step1').css("display", "none");
+                $('#step2').css("display", "block");
+                $('#step3').css("display", "none");
+                $("li").eq(1).addClass("current").siblings().removeClass("current");
+            });
+            $('#nextBtn33').click(function () {
+                //$(".content frm_control_group").eq(1).css("display", "block").siblings().css("display", "none");
+                $('#step1').css("display", "none");
+                $('#step2').css("display", "none");
+                $('#step3').css("display", "block");
+                $("li").eq(2).addClass("current").siblings().removeClass("current");
+            });
+        });
+    </script>
+</body>
+</html>
+
