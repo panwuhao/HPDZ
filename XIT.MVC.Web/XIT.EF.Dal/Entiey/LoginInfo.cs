@@ -21,8 +21,9 @@ namespace XIT.EF.Dal
         public int LogID { get; set; }
 
         [Required]
-        [StringLength(20)]
         [DisplayName("ÐÕÃû")]
+        [StringLength(20)]
+        
         public string LogNum { get; set; }
 
         [Required]
