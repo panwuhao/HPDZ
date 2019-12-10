@@ -11,3 +11,15 @@ E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.xml
 E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CopyComplete
 E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.dll
 E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.pdb
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll.config
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.pdb
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.dll
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.xml
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csprojAssemblyReference.cache
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CoreCompileInputs.cache
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CopyComplete
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.dll
+D:\GitHub\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.pdb
