@@ -8,6 +8,13 @@ namespace XIT.EF.Dal
 {
     public class UserDal
     {
+        //登录
+        public static LoginInfo Login(string Name)
+        {
+            XITDataModel1 model = new XITDataModel1();
+            LoginInfo info = model.LoginInfo.FirstOrDefault(p => p.LogNum == Name);
+            return info;
+        }
         public List<StuInfo> GetUserList()
         {
             XITDataModel1 db = new XITDataModel1();

@@ -13,8 +13,8 @@ namespace XIT.EF.Dal
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public LoginInfo()
         {
-            StuInfo = new HashSet<StuInfo>();
-            TeacherInfo = new HashSet<TeacherInfo>();
+            //StuInfo = new HashSet<StuInfo>();
+            //TeacherInfo = new HashSet<TeacherInfo>();
         }
 
         [Key]
@@ -23,7 +23,7 @@ namespace XIT.EF.Dal
         [Required]
         [DisplayName("ÐÕÃû")]
         [StringLength(20)]
-        
+
         public string LogNum { get; set; }
 
         [Required]
@@ -34,12 +34,13 @@ namespace XIT.EF.Dal
 
         public int? IsDelete { get; set; }
 
-        public virtual role role { get; set; }
+        //public virtual role role { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<StuInfo> StuInfo { get; set; }
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<StuInfo> StuInfo { get; set; }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TeacherInfo> TeacherInfo { get; set; }
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<TeacherInfo> TeacherInfo { get; set; }
+
     }
 }
