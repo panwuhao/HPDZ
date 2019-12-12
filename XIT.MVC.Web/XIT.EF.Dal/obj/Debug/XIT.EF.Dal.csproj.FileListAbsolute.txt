@@ -1,0 +1,26 @@
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csprojAssemblyReference.cache
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CoreCompileInputs.cache
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll.config
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.pdb
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.dll
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.dll
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\HPIT.Data.Core.dll
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.xml
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.xml
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CopyComplete
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.dll
+E:\VS\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.pdb
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll.config
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.dll
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\XIT.EF.Dal.pdb
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.dll
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.dll
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.xml
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\EntityFramework.SqlServer.xml
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CoreCompileInputs.cache
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.csproj.CopyComplete
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.dll
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\obj\Debug\XIT.EF.Dal.pdb
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\log4net.dll
+E:\Program Files\实训中心\HPDZ\HPDZ\XIT.MVC.Web\XIT.EF.Dal\bin\Debug\log4net.xml

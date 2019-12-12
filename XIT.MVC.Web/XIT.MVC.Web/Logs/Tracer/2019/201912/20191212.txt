@@ -1,0 +1,91 @@
+
+记录时间：2019-12-12 08:27:36,070 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:33:24,991 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:33:45,517 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:35:04,610 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:39:19,402 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:56:49,929 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:57:18,393 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 08:57:29,454 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 09:00:27,458 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 09:02:21,702 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":0,"LogNum":null,"LogPwd":null,"roleID":null,"IsDelete":null,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 09:44:38,977 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0,"role":null,"StuInfo":[],"TeacherInfo":[]}登录了系统
+ 
+
+记录时间：2019-12-12 09:53:39,430 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 09:58:54,268 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
