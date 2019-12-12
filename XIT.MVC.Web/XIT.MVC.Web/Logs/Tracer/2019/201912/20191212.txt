@@ -89,3 +89,17 @@
 出错类：Logger property: [(null)] - 
 错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
  
+
+记录时间：2019-12-12 11:40:05,478 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:40:21,987 
+线程ID:[6] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
