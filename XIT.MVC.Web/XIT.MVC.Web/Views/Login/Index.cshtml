@@ -74,12 +74,13 @@
             $.ajax({
                 url: "/Login/LoginReault",
                 type: "post",
-                      //自己写的条件字段
+                    //Name，Pwd:Login控制器中自己写的条件字段
                 data: { "Name": username, "Pwd": password },
                 datatype: "json",
                 success: function (result) {
                     if (result.state == "007") {
                         window.location.href = "/List/Index";
+                        //window.location.href = "/Page/Index";
                     } else {
                         alert("账号或密码错误！");
                     }
