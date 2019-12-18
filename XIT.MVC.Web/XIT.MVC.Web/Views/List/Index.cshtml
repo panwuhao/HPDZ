@@ -21,6 +21,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.StuID)
             </th>
+<<<<<<< HEAD
+=======
+            @*<th>
+                    @Html.DisplayNameFor(model => model.LogID)
+                </th>*@
+>>>>>>> c8274cc525eefc422d66f481da2684ba6f630acb
             <th>
                 @Html.DisplayNameFor(model => model.LogID)
             </th>
@@ -51,6 +57,7 @@
             </th>
             <th></th>
         </tr>
+<<<<<<< HEAD
     
     @foreach (var item in Model) {
         <tr>
@@ -81,19 +88,52 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ClaID)
             </td>
+=======
+>>>>>>> c8274cc525eefc422d66f481da2684ba6f630acb
 
-            <td>
-                @Html.DisplayFor(modelItem => item.IsDelete)
-            </td>
-            <td>
-                @Html.ActionLink("添加", "Create", new { id = item.StuID }) |
-                @Html.ActionLink("详细信息", "Details", new { id = item.StuID }) |
-                @Html.ActionLink("删除", "Delete", new { id = item.StuID })
-                @Html.ActionLink("修改", "Edit", new { id = item.StuID })
-            </td>
-        </tr>
-    }
-    
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuID)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.LogID)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.LoginInfo.LogNum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuSex)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuAge)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuPost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuAdmintime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StuGradtime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClassInfo.ClaName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsDelete)
+                </td>
+                <td>
+                    @Html.ActionLink("添加", "Create", new { id = item.StuID }) |
+                    @Html.ActionLink("详细信息", "Details", new { id = item.StuID }) |
+                    @Html.ActionLink("删除", "Delete", new { id = item.StuID })
+                    @Html.ActionLink("修改", "Edit", new { id = item.StuID })
+                </td>
+            </tr>
+        }
+
     </table>
 </body>
 </html>

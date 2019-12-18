@@ -90,13 +90,156 @@
 错误描述：张建行登录
  
 
+<<<<<<< HEAD
 记录时间：2019-12-12 17:16:37,543 
 线程ID:[8] 
+=======
+<<<<<<< HEAD
+记录时间：2019-12-12 11:05:51,653 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:18:52,637 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:30,542 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:33,938 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:37,651 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:38,850 
+线程ID:[7] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:39,001 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:39,226 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:45,585 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:48,036 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:50,959 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:55,770 
+线程ID:[5] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 11:19:58,819 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 14:20:53,120 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":3,"LogNum":"潘武豪","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 14:20:53,113 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":3,"LogNum":"潘武豪","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 14:41:19,505 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 14:41:23,860 
+线程ID:[23] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 14:41:24,797 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:21:17,082 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:21:18,354 
+线程ID:[15] 
+=======
+记录时间：2019-12-12 11:40:05,478 
+线程ID:[9] 
+>>>>>>> c8274cc525eefc422d66f481da2684ba6f630acb
 日志级别：  INFO  
 出错类：Logger property: [(null)] - 
 错误描述：张建行登录
  
 
+<<<<<<< HEAD
 记录时间：2019-12-12 17:16:49,834 
 线程ID:[10] 
 日志级别：  INFO  
@@ -106,7 +249,1499 @@
 
 记录时间：2019-12-12 17:16:58,185 
 线程ID:[10] 
+=======
+记录时间：2019-12-12 11:40:21,987 
+线程ID:[6] 
+>>>>>>> 90cf9d92877d7cc855719f4bd156484941febc24
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+<<<<<<< HEAD
+
+记录时间：2019-12-12 15:21:18,577 
+线程ID:[14] 
+>>>>>>> c8274cc525eefc422d66f481da2684ba6f630acb
 日志级别：  INFO  
 出错类：Logger property: [(null)] - 
 错误描述：张建行登录
  
+
+记录时间：2019-12-12 15:21:41,938 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:21:42,030 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:21:42,182 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:22:03,583 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:24:26,519 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:24:26,519 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:24:27,980 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:24:32,229 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:24:58,248 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:22,785 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,523 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,552 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,646 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,659 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,721 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,738 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,797 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,813 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,863 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,877 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,929 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:25,945 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,001 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,016 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,079 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,096 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,155 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,176 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,243 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,287 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,345 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,363 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,425 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,444 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,505 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,517 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,590 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,618 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,678 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,698 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,757 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,773 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,828 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,842 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,887 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,900 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,947 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:26,963 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,005 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,018 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,062 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,079 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,127 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,146 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,204 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,229 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,276 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,288 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,344 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,374 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,436 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,460 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,498 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,510 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,550 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,579 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,634 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,651 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,695 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,715 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,762 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,777 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,825 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,846 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,892 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,911 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,964 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:27,984 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,028 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,040 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,083 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,099 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,147 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,162 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,210 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,224 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,262 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,275 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,328 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,344 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,426 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,464 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,511 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,523 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,572 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,589 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,801 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,821 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,882 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,898 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,959 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:28,976 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,021 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,045 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,122 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,144 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,222 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,240 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,283 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,300 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,355 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,374 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,420 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,436 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,478 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,492 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,580 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,683 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,727 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,741 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,781 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,793 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,844 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,866 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,920 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:29,959 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,008 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,018 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,061 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,077 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,125 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,140 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,198 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,212 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,261 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,277 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,326 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,343 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,392 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:31:30,410 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:19,389 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,589 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,607 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,658 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,670 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,711 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,725 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,771 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,784 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,826 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,839 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,883 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,896 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,934 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,947 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,985 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:20,997 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,036 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,049 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,092 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,108 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,151 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,166 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,207 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,221 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,260 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,271 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,312 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,325 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,366 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,379 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,417 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,429 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,466 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,478 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,520 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,532 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,572 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,585 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,626 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,639 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,679 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,696 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,730 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,745 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,788 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,801 
+线程ID:[9] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,843 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,858 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,935 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,947 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:21,996 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,038 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,079 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,092 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,137 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,150 
+线程ID:[22] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,199 
+线程ID:[15] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,212 
+线程ID:[14] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,253 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,271 
+线程ID:[21] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,318 
+线程ID:[17] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,333 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,387 
+线程ID:[12] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:32:22,407 
+线程ID:[11] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 15:44:59,193 
+线程ID:[25] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 16:07:28,775 
+线程ID:[35] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 16:17:32,649 
+线程ID:[33] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":4,"LogNum":"张建行","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 16:44:01,995 
+线程ID:[20] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 19:42:44,315 
+线程ID:[8] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+
+记录时间：2019-12-12 19:42:44,217 
+线程ID:[10] 
+日志级别：  INFO  
+出错类：Logger property: [(null)] - 
+错误描述：{"LogID":1,"LogNum":"谭顺顺","LogPwd":"123456","roleID":1,"IsDelete":0}登录了系统
+ 
+=======
+>>>>>>> 90cf9d92877d7cc855719f4bd156484941febc24
