@@ -12,11 +12,11 @@ namespace XIT.MVC.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-           // routes.MapRoute(
-           //    name: "NewWord",
-           //    url: "{year}/{month}/{day}",
-           //    defaults: new { controller = "List", action = "Index", id = UrlParameter.Optional }
-           //);
+            // routes.MapRoute(
+            //    name: "NewWord",
+            //    url: "{year}/{month}/{day}",
+            //    defaults: new { controller = "List", action = "Index", id = UrlParameter.Optional }
+            //);
 
             routes.MapRoute(
                 name: "Default",

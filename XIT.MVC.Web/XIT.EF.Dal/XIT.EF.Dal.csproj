@@ -67,6 +67,7 @@
     <Compile Include="Entiey\LoginInfo.cs" />
     <Compile Include="Entiey\Payment.cs" />
     <Compile Include="LogHelper.cs" />
+    <Compile Include="LoginDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entiey\role.cs" />
     <Compile Include="Entiey\Semester.cs" />

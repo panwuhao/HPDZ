@@ -103,11 +103,90 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap-fileinput-master\.gitignore" />
+    <Content Include="bootstrap-fileinput-master\css\fileinput-rtl.css" />
+    <Content Include="bootstrap-fileinput-master\css\fileinput-rtl.min.css" />
+    <Content Include="bootstrap-fileinput-master\css\fileinput.css" />
+    <Content Include="bootstrap-fileinput-master\css\fileinput.min.css" />
+    <Content Include="bootstrap-fileinput-master\examples\index.html" />
+    <Content Include="bootstrap-fileinput-master\img\loading-sm.gif" />
+    <Content Include="bootstrap-fileinput-master\img\loading.gif" />
+    <Content Include="bootstrap-fileinput-master\js\fileinput.js" />
+    <Content Include="bootstrap-fileinput-master\js\fileinput.min.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ar.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\az.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\bg.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ca.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\cr.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\cs.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\da.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\de.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\el.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\es.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\et.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\fa.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\fi.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\fr.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\gl.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\he.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\hu.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\id.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\it.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ja.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ka.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\kr.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\kz.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\LANG.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\lt.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\nl.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\no.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\pl.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\pt-BR.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\pt.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ro.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\ru.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\sk.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\sl.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\sv.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\th.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\tr.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\uk.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\uz.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\vi.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\zh-TW.js" />
+    <Content Include="bootstrap-fileinput-master\js\locales\zh.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\piexif.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\piexif.min.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\purify.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\purify.min.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\sortable.js" />
+    <Content Include="bootstrap-fileinput-master\js\plugins\sortable.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fas\theme.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fas\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fas\theme.min.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fas\theme.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fa\theme.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fa\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fa\theme.min.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer-fa\theme.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer\theme.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer\theme.min.css" />
+    <Content Include="bootstrap-fileinput-master\themes\explorer\theme.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\fas\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\fas\theme.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\fa\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\fa\theme.min.js" />
+    <Content Include="bootstrap-fileinput-master\themes\gly\theme.js" />
+    <Content Include="bootstrap-fileinput-master\themes\gly\theme.min.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\reset.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\supersized.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\1.jpg" />
@@ -115,18 +194,39 @@
     <Content Include="img\3.jpg" />
     <Content Include="js\bootstrap.css" />
     <Content Include="js\bootstrap.js" />
+    <Content Include="js\common.js" />
     <Content Include="js\jquery-1.7.js" />
     <Content Include="js\jquery.tmpl.js" />
     <Content Include="js\paging.css" />
     <Content Include="js\paging.js" />
-    <Content Include="js\reset.css" />
-    <Content Include="js\style.css" />
     <Content Include="js\supersized-init.js" />
     <Content Include="js\supersized.3.2.7.min.js" />
-    <Content Include="js\supersized.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="log4net.config" />
+    <Content Include="log4net.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bootstrap-fileinput-master\.github\CODE_OF_CONDUCT.md" />
+    <Content Include="bootstrap-fileinput-master\.github\config.yml" />
+    <Content Include="bootstrap-fileinput-master\.github\CONTRIBUTING.md" />
+    <Content Include="bootstrap-fileinput-master\.github\FUNDING.yml" />
+    <Content Include="bootstrap-fileinput-master\.github\ISSUE_TEMPLATE.md" />
+    <Content Include="bootstrap-fileinput-master\.github\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="bootstrap-fileinput-master\.github\stale.yml" />
+    <Content Include="bootstrap-fileinput-master\.npmignore" />
+    <Content Include="bootstrap-fileinput-master\bower.json" />
+    <Content Include="bootstrap-fileinput-master\CHANGE.md" />
+    <Content Include="bootstrap-fileinput-master\composer.json" />
+    <Content Include="bootstrap-fileinput-master\LICENSE.md" />
+    <Content Include="bootstrap-fileinput-master\nuget\build.bat" />
+    <Content Include="bootstrap-fileinput-master\nuget\Package.nuspec" />
+    <Content Include="bootstrap-fileinput-master\package.json" />
+    <Content Include="bootstrap-fileinput-master\README.md" />
+    <Content Include="bootstrap-fileinput-master\scss\fileinput-rtl.scss" />
+    <Content Include="bootstrap-fileinput-master\scss\fileinput.scss" />
+    <Content Include="bootstrap-fileinput-master\scss\themes\explorer-fas\theme.scss" />
+    <Content Include="bootstrap-fileinput-master\scss\themes\explorer-fa\theme.scss" />
+    <Content Include="bootstrap-fileinput-master\scss\themes\explorer\theme.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -137,14 +237,16 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Common\DeluxeUser.cs" />
+    <Compile Include="Controllers\CustomAuthenticationFilter.cs" />
     <Compile Include="Controllers\DeluxeJsonResult.cs" />
+    <Compile Include="Controllers\FileUploadController.cs" />
     <Compile Include="Controllers\ListController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PageController.cs" />
-    <Compile Include="Filters\CustomAuthenticationFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FileModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +265,8 @@
     <Content Include="Views\Page\Index.cshtml" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\FileUpload\Index.cshtml" />
+    <Content Include="Views\FileUpload\FileListIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -172,7 +276,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XIT.EF.Dal\XIT.EF.Dal.csproj">

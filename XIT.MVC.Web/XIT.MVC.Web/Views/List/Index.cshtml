@@ -21,12 +21,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.StuID)
             </th>
-            @*<th>
-                @Html.DisplayNameFor(model => model.LogID)
-            </th>*@
             <th>
-                @Html.DisplayNameFor(model => model.LoginInfo.LogNum)
+                @Html.DisplayNameFor(model => model.LogID)
             </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.LoginInfo.LogNum)
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.StuSex)
             </th>
@@ -43,7 +43,7 @@
                 @Html.DisplayNameFor(model => model.StuGradtime)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ClassInfo.ClaName)
+                @Html.DisplayNameFor(model => model.ClaID)
             </th>
 
             <th>
@@ -57,12 +57,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.StuID)
             </td>
-            @*<td>
-                @Html.DisplayFor(modelItem => item.LogID)
-            </td>*@
             <td>
-                @Html.DisplayFor(modelItem => item.LoginInfo.LogNum)
+                @Html.DisplayFor(modelItem => item.LogID)
             </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.LoginInfo.LogNum)
+            </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.StuSex)
             </td>
@@ -79,7 +79,7 @@
                 @Html.DisplayFor(modelItem => item.StuGradtime)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ClassInfo.ClaName)
+                @Html.DisplayFor(modelItem => item.ClaID)
             </td>
 
             <td>

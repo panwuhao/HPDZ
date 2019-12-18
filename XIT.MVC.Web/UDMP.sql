@@ -2,7 +2,7 @@
 use master
 go
 
---判断该数据库是否存在，如果存在，先删除。 123
+--判断该数据库是否存在，如果存在，先删除。
 if exists(select * from sys.databases where name='UDMP')
 drop database UDMP
 

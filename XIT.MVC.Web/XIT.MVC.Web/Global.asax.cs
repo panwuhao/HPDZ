@@ -14,7 +14,6 @@ namespace XIT.MVC.Web
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-            //配置文件
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             log4net.Config.XmlConfigurator.Configure(new FileInfo(Server.MapPath("~/log4net.config")));
