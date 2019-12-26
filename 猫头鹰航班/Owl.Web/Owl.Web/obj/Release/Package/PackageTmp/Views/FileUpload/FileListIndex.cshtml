@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IndexList</title>
+    <link href="~/css/paging.css" rel="stylesheet" />
+    <link rel="shortcut icon " type="images/x-icon" href="~/img/play.ico">
+    <link href="~/Plugins/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/jquery-1.11.1.min.js"></script>
+    <script src="~/js/jquery.tmpl.js"></script>
+    <script src="~/js/paging.js"></script>
+</head>
+<body>
+    <div class="">
+        @*<div class="box-body">
+            <div class="pull-left">
+            </div>
+            <div class="box-tools pull-right" style="margin-bottom: 17px;">
+                <div class="has-feedback">
+                    <ul>
+                        <li><input type="button" value="查询" data-toggle="modal" data-target="#editModal" class="btn btn-default" /></li>
+                    </ul>
+                </div>
+            </div>*@
+        <div class="row">
+            <table id="ListTb" class="table table-bordered">
+                <tr>
+                    <th>文件名</th>
+                    <th>目录</th>
+                    <th>修改时间</th>
+                    <th>全名</th>
+                    <th>操作</th>
+                </tr>
+            </table>
+            <div class="pagebox" style="height:30px;" id="box"></div>
+
+            <script id="dataList" type="text/x-jquery-tmpl">
+                {{each  Data}}
+                <tr>
+                    <td>${filename}</td>
+                    <td>${path}</td>
+                    <td>${time}</td>
+                    <td>${fullname}</td>
+                    <td><a href="/FileUpload/DownLoad?filename=${filename}" class="tagDelete" tid="${filename}">下载</a></td>
+                </tr>
+                {{/each}}
+            </script>
+        </div>
+    </div>
+
+    <script src="~/js/common.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        var dic = {
+            queryList: function () {
+                _.queryList("/FileUpload/GetFileList", { "PageIndex": 0, "PageSize": 3 });
+            }
+        };
+        $(document).ready(function () {
+            dic.queryList();
+        });
+    </script>
+
+
+</body>
+</html>
+

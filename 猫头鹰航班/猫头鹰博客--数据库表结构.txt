@@ -1,0 +1,22 @@
+
+
+登录注册表（Userinfo）
+用户编号： UserID  varchar（30）主键 自增        
+用户账号： LoginID  varchar（30）不能为空       
+用户姓名： UserName varchar（20）主键   不能为空      
+用户密码： UserPwd varchar（20）不能为空
+用户邮箱：UserEmail varchar（30）不能为空
+用户性别： UserSex char(2) 不能为空
+用户住址： UserAdress varchar(30) 不能为空
+
+
+
+标签表（Noteinfo）
+标签编号 NoteID int 主键 标识列
+标签主题 Notetheme varchar（20）不能为空
+标签内容 Notecontent varchar（max）不能为空
+标签作者编号 NoteauthorID int 外键 用户表（用户id）
+标签创立时间 NoteTime datetime default(getdate())
+标签修改时间 NoteUpTime datetime default(null)
+软删除 Isdelete int default(0) 
+

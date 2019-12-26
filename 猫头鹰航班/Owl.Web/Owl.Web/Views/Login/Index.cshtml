@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>猫头鹰航班</title>
+    <link rel="shortcut icon " type="images/x-icon" href="~/img/play.ico">
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/supersized.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-container">
+        <h1>登录</h1>
+        <form>
+            <div>
+                <input type="text" id="username" name="username" class="username" placeholder="Username" />
+            </div>
+            <div>
+                <input type="password" id="password" name="password" class="password" placeholder="Password" />
+            </div>
+            <button id="submit" type="button">登录</button>
+        </form>
+        <div class="connect">
+            <p>If we can only encounter each other rather than stay with each other,then I wish we had never encountered.</p>
+            <p style="margin-top:20px;">如果只是遇见，不能停留，不如不遇见。</p>
+        </div>
+    </div>
+    <div class="alert" style="display:none">
+        <h2>消息</h2>
+        <div class="alert_con">
+            <p id="ts"></p>
+            <p style="line-height:70px"><a class="btn" id="btn">确定</a></p>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="~/js/jquery-1.7.js"></script>
+    @*<script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>*@
+    <script src="~/js/supersized.3.2.7.min.js"></script>
+    <script src="~/js/supersized-init.js"></script>
+    <script>
+        $(function () {
+            $("#submit").click(function () {
+                var username = $(".username").val();
+                var password = $(".password").val();
+                $.ajax({
+                    url: "/Login/LoginReault",
+                    type: "post",
+                    //自己写的条件字段
+                    data: { "Name": username, "Pwd": password },
+                    datatype: "json",
+                    success: function (result) {
+                        if (result.data.GradeID==1) {
+                            window.location.href = "/Index/IndexT";
+                        } else if (result.data.GradeID == 2)
+                        {
+                            window.location.href = "/Index/Index";
+                        }
+                        else {
+                            alert("账号或密码错误！");
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+</html>
+
+

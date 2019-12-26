@@ -1,0 +1,269 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IndexList</title>
+    <link href="~/css/paging.css" rel="stylesheet" />
+    <link rel="shortcut icon " type="images/x-icon" href="~/img/login.gif">
+    <link href="~/Plugins/layui/css/layui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery-1.11.1.min.js"></script>
+    <script src="~/js/jquery.tmpl.js"></script>
+    <script src="~/js/paging.js"></script>
+</head>
+<body>
+    <div>
+        <table id="ListTb" class="table table-bordered">
+            <tr>
+                <th>航班路线</th>
+                <th>航班日期</th>
+                <th>起飞时间</th>
+                <th>机舱类型</th>
+                <th>票价</th>
+                <th>航班是否延误</th>
+                <th>延误原因</th>
+                <th>剩余票数</th>
+                <th>机型</th>
+                <th>操作</th>
+            </tr>
+        </table>
+        <script id="dataList" type="text/x-jquery-tmpl">
+            {{each  Data}}
+            <tr id="Btn">
+                <td>${FlightLoad}</td>
+                <td>${FlightDate}</td>
+                <td>${FlightTime}</td>
+                <td>${CabinType}</td>
+                <td>${TicketPrice}</td>
+                <td>${IsDelay==1?"是":"否"}</td>
+                <td>${DelayCause}</td>
+                <td>${SurTicket}</td>
+                <td>${PlaneType}</td>
+                <td>
+                    <a id="edit" href="#" class="btn btn-info"
+                       FlightID="${FlightID}"
+                       FlightLoad="${FlightLoad}"
+                       FlightDate="${FlightDate}"
+                       FlightTime="${FlightTime}"
+                       CabinType="${CabinType}"
+                       TicketPrice="${TicketPrice}"
+                       IsDelay="${IsDelay}"
+                       DelayCause="${DelayCause}"
+                       SurTicket="${SurTicket}"
+                       PlaneType="${PlaneType}"
+                       type="update" data-toggle="modal" data-target="#exampleModal" uid="${FlightID}">编辑</a>
+                    <a href="/Index/Delete?id=${FlightID}" class="btn btn-info" type="delete" uid="${FlightID}">删除</a>
+                </td>
+            </tr>
+            {{/each}}
+        </script>
+    </div>
+    <div class="pagebox" style="height:30px;" id="box"></div>
+
+    <script type="text/javascript" charset="utf-8">
+        var _ = {
+            MasterData: {},
+            options: {
+                "url": "/Index/QueryPageData",
+                "data": { "PageIndex": 0, "PageSize": 3 },
+                "type": "post",
+                "datatype": "json"
+            },
+            render: function (data) {
+                $("#ListTb tr:gt(0)").remove();
+                $("#dataList").tmpl(data).appendTo('#ListTb');
+            },
+            getQueryString: function (name) {
+                var reg = new RegExp('(?:(?:&|\\?)' + name + '=([^&]*))|(?:/' + name + '/([^/]*))', 'i');
+                var r = window.location.href.match(reg);
+                if (r != null)
+                    return decodeURI(r[1] || r[2]);
+                return null;
+            },
+            ajaxData: function (options, callback) {
+                $.ajax({
+                    url: options.url,
+                    data: options.data,
+                    type: options.type,
+                    dataType: options.dataType,
+                    beforeSend: function () {
+                        $("#loading").show();
+                    },
+                    success: function (survey) {
+                        callback(survey);
+                    },
+                    complete: function () {
+                        $("#loading").hide();
+                    }
+                })
+            }
+        };
+        $(document).ready(function () {
+            _.ajaxData(_.options, function (result) {
+                _.render(result);
+                var setTotalCount = result.Total;
+                $('#box').paging({
+                    initPageNo: 1, // 初始页码
+                    totalPages: result.TotalPages, //总页数
+                    totalCount: '合计' + setTotalCount + '条数据', // 条目总数
+                    slideSpeed: 600, // 缓动速度。单位毫秒
+                    jump: true, //是否支持跳转
+                    callback: function (page) {
+                        //回调函数
+                        //alert(page);
+                        _.options.data.PageIndex = page;
+                        _.ajaxData(_.options, function (result) {
+                            _.render(result);
+                        });
+                    }
+                })
+            });
+        })
+        $("#ListTb").on("click", "#edit", function () {
+            var FlightID = $(this).attr("FlightID");
+            var FlightLoad = $(this).attr("FlightLoad");
+            var FlightDate = $(this).attr("FlightDate");
+            var FlightTime = $(this).attr("FlightTime");
+            var CabinType = $(this).attr("CabinType");
+            var TicketPrice = $(this).attr("TicketPrice");
+            var IsDelay = $(this).attr("IsDelay");
+            var DelayCause = $(this).attr("DelayCause");
+            var SurTicket = $(this).attr("SurTicket");
+            var PlaneType = $(this).attr("PlaneType");
+
+
+            $("#FlightLoad").val(FlightLoad);
+            $("#FlightDate").val(FlightDate);
+            $("#FlightTime").val(FlightTime);
+            $("#CabinType").val(CabinType);
+            $("#TicketPrice").val(TicketPrice);
+            $("#IsDelay").val(IsDelay);
+            $("#DelayCause").val(DelayCause);
+            $("#SurTicket").val(SurTicket);
+            $("#PlaneType").val(PlaneType);
+        })
+        // //修改保存按钮
+        $(function () {
+
+            $("#save").click(function () {
+
+                var FlightLoad = $("#FlightLoad").val();
+                var FlightDate = $("#FlightDate").val();
+                var FlightTime = $("#FlightTime").val();
+                var CabinType = $("#CabinType").val();
+                var TicketPrice = $("#TicketPrice").val();
+                var IsDelay = $("#IsDelay").val();
+                var DelayCause = $("#DelayCause").val();
+                var SurTicket = $("#SurTicket").val();
+                var PlaneType = $("#PlaneType").val();
+                $.ajax({
+                    url: "/Index/UpdateModel",
+                    type: "get",
+                    data: {
+                        "FlightLoad": FlightLoad,
+                        "FlightDate": FlightDate,
+                        "FlightTime": FlightTime,
+                        "CabinType": CabinType,
+                        "TicketPrice": TicketPrice,
+                        "IsDelay": IsDelay,
+                        "DelayCause": DelayCause,
+                        "FlightDate": FlightDate,
+                        "SurTicket": SurTicket,
+                        "PlaneType": PlaneType
+                    },
+                    dataType: "json",
+                    success: function (result) {
+                        if (result>0) {
+                            alert("修改成功！");
+                            $("#ListTb tr:gt(0)").remove();
+                            $("#dataList").tmpl(data).appendTo('#ListTb');
+                        }
+                        else {
+                            alert("修改失败！");
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+    <!-- 按钮触发模态框 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">修改航班信息</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">航班路线</label>
+                        <input type="text" class="form-control" id="FlightLoad" />
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">航班日期</label>
+                        @*时间控件 日期*@
+                        <input type="text" class="form-control" id="FlightDate" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">起飞时间</label>
+                        @*时间控件 时间*@
+                        <textarea class="form-control" id="FlightTime"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">机舱类型</label>
+                        @*下拉框*@
+                        <input type="text" class="form-control" id="CabinType" />
+                        @*<select id="CabinType" class="form-control">
+                                <option></option>
+                            </select>*@
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">票价</label>
+                        <input id="TicketPrice" class="form-control" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">航班是否延误</label>
+                        @*下拉框*@
+                        <input type="text" class="form-control" id="IsDelay" />
+                        @*<select id="IsDelay" class="form-control">
+                                <option>是</option>
+                                <option>否</option>
+                            </select>*@
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">延误原因</label>
+                        <textarea id="DelayCause" class="form-control" rows="2" cols="20"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">剩余票数</label>
+                        <input id="SurTicket" class="form-control" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="control-label">机型</label>
+                        @*下拉框*@
+                        <input type="text" class="form-control" id="PlaneType" />
+                        @*<select id="PlaneType" class="form-control">
+                                <option></option>
+                                <option></option>
+                            </select>*@
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button id="save" type="button" class="btn btn-primary">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

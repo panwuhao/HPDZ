@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FlightDelay</title>
+    <script src="~/js/jquery-1.11.1.min.js"></script>
+    <script src="~/js/jquery.tmpl.js"></script>
+    <script src="~/js/paging.js"></script>
+</head>
+<body>
+    <input id="btn" type="button" value="button" />
+    <div>
+        <table id="ListTb" class="table table-bordered">
+            <tr>
+                <th>航班路线</th>
+                <th>航班日期</th>
+                <th>起飞时间</th>
+                <th>机舱类型</th>
+                <th>票价</th>
+                <th>航班是否延误</th>
+                <th>延误原因</th>
+                <th>剩余票数</th>
+                <th>机型</th>
+                <th>操作</th>
+            </tr>
+        </table>
+        <script id="dataList" type="text/x-jquery-tmpl">
+            {{each  Data}}
+            <tr>
+                <td>${FlightLoad}</td>
+                <td>${FlightDate}</td>
+                <td>${FlightTime}</td>
+                <td>${CabinType}</td>
+                <td>${TicketPrice}</td>
+                <td>${IsDelay==1?"是":"否"}</td>
+                <td>${DelayCause}</td>
+                <td>${SurTicket}</td>
+                <td>${PlaneType}</td>
+                <td>
+                    <a href="/Index/Delete?id=${FlightID}" class="btn btn-info" type="delete" uid="${FlightID}">删除</a>
+                </td>
+            </tr>
+            {{/each}}
+        </script>
+    </div>
+    <script type="text/javascript" charset="utf-8">
+        var api = "http://localhost:53894/";
+            $.ajax({
+                type: "get",
+                url: api + "/api/Index/GetList",
+                dataType:"json",
+                success: function (data) {
+                    $("#dataList").tmpl(data).appendTo("#ListTb");
+                },
+                error: function () {
+                    alert("获取失败");
+                }
+            });
+    </script>
+</body>
+</html>

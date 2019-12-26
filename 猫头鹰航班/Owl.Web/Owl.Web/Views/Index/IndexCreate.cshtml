@@ -1,0 +1,114 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IndexCreate</title>
+    <link href="~/Plugins/layui/css/layui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery-1.11.1.min.js"></script>
+    <script src="~/js/jquery.tmpl.js"></script>
+</head>
+<body>
+    <div class="form-group">
+        <label for="recipient-name" class="control-label">航班路线</label>
+        <input type="text" class="form-control" id="FlightLoad" />
+    </div>
+    <div class="form-group">
+        <label for="recipient-name" class="control-label">航班日期</label>
+        @*时间控件 日期*@
+        <input type="text" class="form-control" id="FlightDate" />
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">起飞时间</label>
+        @*时间控件 时间*@
+        <textarea class="form-control" id="FlightTime"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">机舱类型</label>
+        @*下拉框*@
+        <input type="text" class="form-control" id="CabinType" />
+        @*<select id="CabinType" class="form-control">
+                <option></option>
+            </select>*@
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">票价</label>
+        <input id="TicketPrice" class="form-control" type="text" />
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">航班是否延误</label>
+        
+        <input type="text" class="form-control" id="IsDelay" />
+        @*<select id="IsDelay" class="form-control">
+                <option value="0">是</option>
+                <option value="1">否</option>
+            </select>*@
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">延误原因</label>
+        <textarea id="DelayCause" class="form-control" rows="2" cols="20"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">剩余票数</label>
+        <input id="SurTicket" class="form-control" type="text" />
+    </div>
+    <div class="form-group">
+        <label for="message-text" class="control-label">机型</label>
+        @*下拉框*@
+        <input type="text" class="form-control" id="PlaneType" />
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button id="save" type="button" class="btn btn-primary">添加</button>
+    </div>
+    <script>
+        $(function () {
+            $("#save").click(function () {
+                var FlightLoad = $("#FlightLoad").val();
+                var FlightDate = $("#FlightDate").val();
+                var FlightTime = $("#FlightTime").val();
+                var CabinType = $("#CabinType").val();
+                var TicketPrice = $("#TicketPrice").val();
+                var IsDelay = $("#IsDelay").val();
+                var DelayCause = $("#DelayCause").val();
+                var SurTicket = $("#SurTicket").val();
+                var PlaneType = $("#PlaneType").val();
+                $.ajax({
+                    url: "/Index/Create",
+                    type: "get",
+                    data: {
+                        "FlightLoad": FlightLoad,
+                        "FlightDate": FlightDate,
+                        "FlightTime": FlightTime,
+                        "CabinType": CabinType,
+                        "TicketPrice": TicketPrice,
+                        "IsDelay": IsDelay,
+                        "DelayCause": DelayCause,
+                        "SurTicket": SurTicket,
+                        "PlaneType": PlaneType
+                    },
+                    dataType: "json",
+                    success: function (result) {
+                        if (result > 0) {
+                            alert("添加成功！");
+                            window.location.href = "Index/IndexList";
+                        }
+                        else {
+                            alert("添加失败！");
+                        }
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+</html>
